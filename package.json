@@ -1,0 +1,29 @@
+{
+  "name": "gds-codetain-mid",
+  "version": "1.0.0",
+  "description": "Gather Data Service for job application in Codetain.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node ./out/src/app.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pjamroziak/gds-service-mid.git"
+  },
+  "author": "Pawel Jamroziak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pjamroziak/gds-service-mid/issues"
+  },
+  "homepage": "https://github.com/pjamroziak/gds-service-mid#readme",
+  "dependencies": {
+    "@types/amqplib": "^0.5.17",
+    "@types/jest": "^26.0.21",
+    "amqplib": "^0.7.1",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.4",
+    "ts-node": "^9.1.1"
+  }
+}
